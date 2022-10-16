@@ -1,0 +1,139 @@
+/* Step 2: Import the Reset */
+@import url(./reset.css);
+/* End of Reset */
+
+
+/* Step 3: Import the Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Poppins:wght@200&family=Roboto:wght@300&display=swap');
+/* End of Fonts */
+#bolding ul>li,h1,h2
+{
+    outline: 1px dashed #ccc;
+
+}
+html,body ,main,header,section{
+    height:  100%;
+    scroll-behavior: smooth;
+}
+.main_header
+{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main_header h1
+{
+    font-size: 54pt;
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+}
+.main_header p
+{
+    font-size: 34pt;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+}
+header h2
+{
+    font-size: 24pt;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+}
+#main-nav
+{
+    width :100%;
+    height: 64px;
+    background-color:rgba(0,0,0,0.5);
+}
+#main-nav ul
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+#main-nav ul li
+{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+#main-nav ul li a
+{
+    padding: 1.5em;
+    text-decoration: none;
+    color: #fff;
+}
+#main-nav ul li a:hover
+{
+    background-color: rgba(255,255,255, 0.25);
+    transition: 0.5s;;
+}
+body h3
+{
+    font-size: 24pt;
+    font-family:'Courier New', Courier, monospace;
+}
+
+header
+{
+    background-image: url(../mario-alvarez-M1YdS0g8SRA-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+div>h3
+{
+    font-size: 25pt;
+    font-weight: bold;
+    text-align: center;
+    padding: 1em;
+    background-color: #333;
+    color: #fff;
+}
+#myimage
+{
+    float: left;
+    
+}
+body>div>section>p
+{
+    font-size: 18pt;
+    
+    padding: 1em;
+    background-color: rgb(67, 168, 57);
+    color: rgb(53, 42, 42);
+}
+section>div>h3
+{
+    font-size: 25pt;
+    font-weight: bold;
+    text-align: center;
+    padding: 1em;
+    background-color: #333;
+    color: #fff;
+}
+div>ol>li
+{
+    font-size: 15pt;
+    
+    padding: 1em;
+    background-color: rgb(209, 115, 27);
+    color: rgb(53, 42, 42);
+}
+section>div>ul>li
+{
+    font-size: 10.5pt;
+    
+    padding: 1em;
+    background-color: rgb(18, 115, 206);
+    color: rgb(221, 206, 206);
+}
+body>footer>p
+{
+    font-size: 14pt;
+    
+    padding: 1em;
+    background-color: rgb(27, 21, 21);
+    color: rgb(145, 179, 142);
+}
